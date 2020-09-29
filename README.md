@@ -1,6 +1,6 @@
-# O09CTQ_DBGyak
-## Baumel Márton
+# Adatbázis I. Gyakorlat
 
-Adatbázis I. Gyakorlat
+## Baumel Márton Benedek
 
-## Gyakorlat vezető:
+
+
