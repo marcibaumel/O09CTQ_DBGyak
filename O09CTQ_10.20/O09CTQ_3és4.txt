@@ -1,0 +1,21 @@
+CREATE TABLE Tanfolyam(
+tkod int PRIMARY KEY,
+megnevezes varchar(30),
+tipus varchar(100),
+ar int
+);
+
+CREATE TABLE Resztvevo(
+tajszam int PRIMARY KEY,
+nev varchar(50),
+lakcim varchar (100)
+);
+
+CREATE TABLE T_R(
+befizetes int,
+tkod int unsigned not null,
+tajszam int unsigned not null,
+CONSTRAINT T_R_T foreign key (tkod) references Tanfolyam(tkod),
+CONSTRAINT T_R_R foreign key (tajszam) references Resztvevo(tajszam),
+CONSTRAINT T_R_unique UNIQUE (Tanfolyam, Resztvevo)
+);
