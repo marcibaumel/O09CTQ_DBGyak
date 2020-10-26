@@ -5,6 +5,7 @@ tipus varchar(100),
 ar int
 );
 
+
 CREATE TABLE Resztvevo(
 tajszam int PRIMARY KEY,
 nev varchar(50),
