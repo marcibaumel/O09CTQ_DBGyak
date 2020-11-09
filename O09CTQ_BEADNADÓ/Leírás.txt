@@ -1,0 +1,5 @@
+Feladat Leírás:
+
+Egy videó játékokat forgalmazó üzlet elképzelt adatbázisa lesz. Ez a üzlet nem fog forgalmazni semmilyen egyéb terméket mint videójáték és online nem elérhető a vásárlás funkció.
+
+Az ERD egyedei és tulajdonságai: 
