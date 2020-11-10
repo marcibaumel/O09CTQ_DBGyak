@@ -1,0 +1,9 @@
+SELECT* FROM TERMEK WHERE X<ear;
+
+SELECT nev, telephely FROM GYARTO WHERE telephely='X'
+
+SELECT COUNT(tkod) FROM TERMEK WHERE X<ear;
+
+SELECT tkod FROM TERMEK WHERE nev LIKE '%tej%';
+
+SELECT nev FROM GYARTO WHERE telephely='NULL';

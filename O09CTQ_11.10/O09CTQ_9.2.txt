@@ -1,0 +1,17 @@
+SELECT TERMEKEK.nev GYARTO.nev FROM TERMEK INNER JOIN GYARTO ON TERMEK.gyarto=GYARTO.adoszam;
+
+SELECT termek.nev, gyarto.nev, termek.ear
+FROM termek
+WHERE gyarto.nev = X
+INNER JOIN gyarto ON termek.gyarto = gyarto.adoszam;
+
+SELECT Alkatresz.nev
+FROM Alkatresz
+WHERE termek.nev = X
+INNER JOIN termek ON Alkatresz.akod = termek.tkod;
+
+SELECT COUNT(tkod)
+FROM Tanfolyam
+GROUP BY(tipus);
+
+SELECT termek FROM KOMPONENS WERE alkatresz='NULL';
