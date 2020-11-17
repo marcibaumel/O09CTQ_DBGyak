@@ -1,0 +1,19 @@
+ALTER TABLE Alkatresz
+ADD ar int;
+
+
+SELECT gyarto.nev
+FROM GYARTO 
+INNER JOIN TERMEK ON GYARTO.adoszam = TERMEK.gyarto
+WHERE COUNT(tkod) = 0
+GROUP BY gyarto.nev;
+
+
+UPDATE Alkatresz 
+SET ar=ar*1,10 
+WHERE akod=x; 
+
+
+SELECT TERMEK.nev, MAX (Egysegek.db) 
+FROM TERMEK
+INNER JOIN Egysegek TERMEK.tkod = Egysegek.aru;
