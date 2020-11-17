@@ -1,0 +1,15 @@
+SELECT COUNT(tkod)
+FROM termek
+WHERE ear > AVG(ear);
+
+SELECT MAX(ear), nev
+FROM termek;
+
+SELECT MAX(ear), gyarto.nev
+FROM termek
+INNER JOIN gyarto ON termek.gyarto = gyarto.adoszam;
+
+SELECT gyarto.nev, AVG(termek.ear)
+FROM termek
+INNER JOIN gyarto ON termek.gyarto = gyarto.adoszam
+GROUP BY gyarto.nev;
