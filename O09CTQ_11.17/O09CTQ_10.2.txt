@@ -1,0 +1,8 @@
+SELECT
+
+SELECT megnevezes, ar, IF(ar>100000, "Drága", "Olcsó") FROM Tanfolyam;
+
+SELECT Tanfolyam.megnevezes FROM Tanfolyam
+INNER JOIN Befizates ON Tanfolyam.tkod=Befizetes.kurzus,
+IF(COUNT(Befizetes.diak)>10, "Sokan", "Kevesen")
+
