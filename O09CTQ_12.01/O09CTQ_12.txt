@@ -1,0 +1,120 @@
+1,
+
+Armstrong Axióma:
+
+AB - A
+AB - B
+AB - AB
+A - A
+B - B
+
+
+2,
+
+AB - B
+AC - B
+A - B
+B - B
+
+
+3,
+
+Második Armstrong axióma:
+
+A - B = AC - BC
+
+Első Armstrong axióma:
+
+BC - B
+
+Harmadik Armstrong axióma:
+
+AC - BC, BC - B = AC - B
+
+
+4,
+
+A - B = AC - BC
+C - D = BC - BD
+
+AC - BC
+BC - BD
+=AC-BD
+
+
+5,
+
+B → D , B → C
+B → D = B → C és C → D-ből
+
+Mag:
+A → B, B → C, C → D
+
+
+6,
+
+vevő_kód → vevő_név
+termék_neve -> egységár
+(datum, vevő_kod) → termék_neve
+(datum, vevő_kod) → összár
+
+
+7,
+
+FD mag:
+
+A → B, B → C, C → D
+
+=>
+
+A → B
+A → C
+A → D
+
+PK -> A 
+
+8,
+
+Az irreducibilis mag:
+
+vevő_kód → vevő_név
+
+termék_neve -> egységár
+
+(datum, vevő_kod) → termék_neve
+(datum, vevő_kod) → összár
+A minimális jelölt kulcs:
+(datum, vevő_kod)
+
+=>
+
+(datum, vevő_kod) → vevő_név
+(datum, vevő_kod) → termék_neve
+(datum, vevő_kod) → egységár
+(datum, vevő_kod) → ősszár
+
+
+9,
+
+T1 (datum, vevő_kod, termék_neve, összár)
+T2 (vevő_kod, vevő_név)
+T3 (termék_neve , egységár)
+
+
+10,
+
+Tabla1 (
+ SALESPERSON-NUMBER,
+ SALESPERSON-NAME,
+ SALES-AREA)
+Tabla2 (
+ CUSTOMER-NUMBER,
+ CUSTOMER-NAME,
+ WAREHOUSE-NUMBER)
+Tabla3 (
+ WAREHOUSE-NUMBER,
+ WAREHOUSE-LOCATION)
+Tabla4 (
+ SALESPERSON-NUMBER,
+ CUSTOMER-NUMBER,
+ SALES-AMOUNT)
