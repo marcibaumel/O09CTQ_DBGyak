@@ -1,0 +1,11 @@
+				CLI			E-SQL
+
+Parancs			függvény hivással		prefix alapján
+
+Parancsok		SQL és egyébb parancsok		SQL		
+
+Elterjedség		használt			kevésbbé használt
+
+Kapcsolatok		több adatbázissal ál		kommunikál az adatbázissal
+			kapcsolatban
+
